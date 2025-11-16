@@ -1,25 +1,18 @@
-# campus-life-super-app
+# Campus Life App — MVP (by Drew Newman)
 
-This repository now contains a basic static structure for a Campus Life super app front-end.
+## What
+A 3-page MVP: Home, Events, Dining. Bootstrap + custom CSS + JS demo (event filtering, localStorage favorites, API demo).
 
-## Structure:
+## Run locally
+1. Open `index.html` in your browser.
+OR
+2. Run a simple server:
+   `python -m http.server 8000`
+   then open http://localhost:8000
 
-```
-campus-life-super-app/
-├─ css/
-│  └─ style.css
-├─ js/
-│  └─ script.js
-├─ images/
-│  └─ .gitkeep (placeholder)
-├─ index.html
-├─ events.html
-├─ dining.html
-```
+## What to submit
+- GitHub repo URL
+- GitHub Pages URL
 
-## How to view locally:
-
-1. Open `index.html` in a browser, or run a local static server (e.g., `python -m http.server 8000`) in the project root.
-
-## What's next:
-- Replace placeholder content, add images to `images/`, and wire dynamic features.
+## Notes
+- API demo uses jsonplaceholder.typicode.com (public).
