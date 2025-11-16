@@ -1,17 +1,23 @@
-/* Basic styles for campus-life-super-app */
-:root{
-  --bg:#f8f9fb;
-  --accent:#2b6cb0;
-  --muted:#6b7280;
+/* css/style.css - Campus Life MVP (by Drew Newman) */
+
+/* Body defaults */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f8fafc;
+  color: #111827;
+  margin: 0;
 }
-*{box-sizing:border-box}
-html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#111;background:var(--bg)}
-header{background:var(--accent);color:white;padding:1rem}
-.container{max-width:1000px;margin:0 auto;padding:1rem}
-nav a{color:rgba(255,255,255,0.95);margin-right:1rem;text-decoration:none}
-main{padding:2rem}
-footer{padding:1rem;text-align:center;color:var(--muted);font-size:0.9rem}
-/* Responsive */
-@media(min-width:768px){
-  .grid{display:grid;grid-template-columns:1fr 300px;gap:1rem}
+
+/* Header styles */
+header { background: #0d6efd; color: white; }
+
+/* Card visuals */
+.card {
+  border: 0;
+  box-shadow: 0 1px 8px rgba(15,15,15,0.04);
+}
+
+/* Small screens tweak */
+@media (max-width: 576px) {
+  header h1 { font-size: 1.1rem; }
 }
